@@ -1,12 +1,18 @@
-name: afterparty
+name: dystopianapp
 description: A new Flutter project.
 
 publish_to: 'none'
 
 version: 1.0.0+1
 
+include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  enable-experiment:
+      - non-nullable
+
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
@@ -14,6 +20,8 @@ dependencies:
 
   cupertino_icons: ^1.0.2
   google_fonts: ^2.0.0
+  flutter_svg: ^0.22.0
+  provider: ^5.0.0
 
 dev_dependencies:
   flutter_test:

@@ -1,4 +1,4 @@
-import 'package:afterparty/core/app_widget.dart';
+import 'package:dystopianapp/core/app_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {

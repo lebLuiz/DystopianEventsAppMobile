@@ -1,4 +1,4 @@
-package com.example.afterparty
+package com.example.dystopianapp
 
 import io.flutter.embedding.android.FlutterActivity
 

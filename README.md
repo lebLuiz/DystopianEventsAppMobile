@@ -1,4 +1,4 @@
-# afterparty
+# dystopianapp
 
 A new Flutter project.
 

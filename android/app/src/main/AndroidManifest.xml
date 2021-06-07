@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.afterparty">
+    package="com.example.dystopianapp">
    <application
-        android:label="afterparty"
+        android:label="dystopianapp"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

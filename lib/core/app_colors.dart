@@ -4,7 +4,7 @@ class AppColors {
 
   //# = 0XFF
   
-  static final Color myDark = Color(0xFF000000);
+  static final Color myDark = Color(0xFF232425);
   static final Color purple = Color(0xFF8257E5);
   static final Color white = Color(0xFFFFFFFF);
   static final Color black = Color(0xFF514766);
@@ -39,4 +39,9 @@ class AppColors {
   static final Color levelButtonTextMedio = darkGreen;
   static final Color levelButtonTextDificil = Color(0xFFE8891C);
   static final Color levelButtonTextPerito = darkRed;
+
+
+  // This is not a color:
+  static const List validEmail = ['exemplo@email.com'];
+
 }

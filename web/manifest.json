@@ -1,6 +1,6 @@
 {
-    "name": "afterparty",
-    "short_name": "afterparty",
+    "name": "dystopianapp",
+    "short_name": "dystopianapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
