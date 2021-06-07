@@ -15,10 +15,10 @@ class LoginPage extends StatefulWidget {
 }
 
 void clicandoEmLogin() {
-  print('Fazer Login');
+  print('Fazer Login - editando');
 }
 void clicandoEmCadastro() {
-  print('Fazer Cadastro');
+  print('Fazer Cadastro - editando');
 }
 
 class _LoginPageState extends State<LoginPage> {
