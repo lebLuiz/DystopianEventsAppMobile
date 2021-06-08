@@ -5,18 +5,24 @@ import 'package:provider/provider.dart';
 
 class TextFieldWidget extends StatelessWidget {
 
+  final TextInputType typeKeyBoard;
+
   final String hintText;
   final IconData prefixIconData;
   final IconData suffixIconData;
   final bool obscureText;
   final Function onChanged;
 
+  final TextEditingController myController;
+
   TextFieldWidget({
+    this.typeKeyBoard,
     this.hintText,
     this.prefixIconData,
     this.suffixIconData,
     this.obscureText,
-    this.onChanged
+    this.onChanged,
+    this.myController
   });
 
   @override
@@ -25,6 +31,8 @@ class TextFieldWidget extends StatelessWidget {
     final model = Provider.of<HomeModelWidget>(context);
     
     return TextField(
+      keyboardType: typeKeyBoard,
+      controller: myController,
       onChanged: onChanged,
       obscureText: obscureText,
       style: TextStyle(
